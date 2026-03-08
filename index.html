@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Venkatrajan R | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<nav>
+  <div class="logo">VR<span>.</span>dev</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="hero">
+  <div class="hero-inner">
+    <p class="hero-tag">CSE Student · Panimalar Engineering College · Chennai</p>
+    <h1>Venkat<span class="name-accent">rajan</span><br><span class="name-accent2">R.</span></h1>
+    <p class="hero-sub"><strong>Developer. Builder. Innovator.</strong><br>Crafting meaningful digital experiences through code — from immersive VR applications to intelligent ML systems.</p>
+    <div class="type-wrap" id="typewriter"><span class="cursor"></span></div>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Get In Touch</a>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <span>scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="inner">
+    <p class="section-label reveal">About Me</p>
+    <h2 class="reveal">Who I <span>Am</span></h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm <strong>Venkatrajan R</strong>, a passionate Computer Science &amp; Engineering student at <strong>Panimalar Engineering College, Chennai</strong>. I thrive at the intersection of creativity and technology.</p>
+        <p>My academic journey has equipped me with a strong foundation in <strong>Java, Python, HTML, CSS</strong>, and <strong>SQL</strong>, which I've applied to build real-world projects across VR and machine learning domains.</p>
+        <p>I believe great software solves real problems — from reimagining healthcare with VR to building predictive models using ML. Every line of code I write is driven by that belief.</p>
+        <div class="info-row">
+          <span class="info-chip">📍 <em>Chennai, India</em></span>
+          <span class="info-chip">🎓 <em>B.E. CSE</em></span>
+          <span class="info-chip">🏫 <em>Panimalar EC</em></span>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="cgpa-card">
+          <div class="cgpa-num">8.4</div>
+          <div class="cgpa-label">CGPA</div>
+          <div class="cgpa-sub">// Academic Excellence</div>
+        </div>
+        <div style="margin-top:1.5rem;display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+          <div class="cgpa-card" style="padding:1.2rem;">
+            <div style="font-size:1.8rem;font-family:'Space Mono',monospace;color:var(--accent2);font-weight:700;">2+</div>
+            <div class="cgpa-sub">Projects</div>
+          </div>
+          <div class="cgpa-card" style="padding:1.2rem;">
+            <div style="font-size:1.8rem;font-family:'Space Mono',monospace;color:var(--accent);font-weight:700;">5+</div>
+            <div class="cgpa-sub">Tech Skills</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="inner">
+    <p class="section-label reveal">Technical Skills</p>
+    <h2 class="reveal">What I <span>Build With</span></h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal"><div class="skill-icon">☕</div><div class="skill-name">Java</div><div class="skill-bar"><div class="skill-bar-fill" data-w="90"></div></div><div class="skill-pct">90%</div></div>
+      <div class="skill-card reveal"><div class="skill-icon">🌐</div><div class="skill-name">HTML &amp; CSS</div><div class="skill-bar"><div class="skill-bar-fill" data-w="85"></div></div><div class="skill-pct">85%</div></div>
+      <div class="skill-card reveal"><div class="skill-icon">🐍</div><div class="skill-name">Python</div><div class="skill-bar"><div class="skill-bar-fill" data-w="82"></div></div><div class="skill-pct">82%</div></div>
+      <div class="skill-card reveal"><div class="skill-icon">🗄️</div><div class="skill-name">SQL</div><div class="skill-bar"><div class="skill-bar-fill" data-w="80"></div></div><div class="skill-pct">80%</div></div>
+      <div class="skill-card reveal"><div class="skill-icon">🤖</div><div class="skill-name">Machine Learning</div><div class="skill-bar"><div class="skill-bar-fill" data-w="75"></div></div><div class="skill-pct">75%</div></div>
+      <div class="skill-card reveal"><div class="skill-icon">🥽</div><div class="skill-name">VR Development</div><div class="skill-bar"><div class="skill-bar-fill" data-w="70"></div></div><div class="skill-pct">70%</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="inner">
+    <p class="section-label reveal">Projects</p>
+    <h2 class="reveal">What I've <span>Built</span></h2>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <span class="project-icon">🥽</span>
+        <div class="project-num">// PROJECT_01</div>
+        <div class="project-title">VR Hair Transplant Simulator</div>
+        <div class="project-desc">An immersive Virtual Reality application that simulates hair transplant procedures, allowing users to visualize pre- and post-operative results in a 3D interactive environment. Bridges the gap between patient expectation and surgical outcome.</div>
+        <div class="project-tags"><span class="tag">VR</span><span class="tag">3D Modeling</span><span class="tag">Healthcare Tech</span><span class="tag">Simulation</span></div>
+      </div>
+      <div class="project-card reveal">
+        <span class="project-icon">🧠</span>
+        <div class="project-num">// PROJECT_02</div>
+        <div class="project-title">ML Predictive Model</div>
+        <div class="project-desc">A machine learning project applying data science techniques to analyze patterns and build predictive models. Leverages Python libraries for data preprocessing, model training, and evaluation to derive actionable insights from real-world datasets.</div>
+        <div class="project-tags"><span class="tag">Python</span><span class="tag">Machine Learning</span><span class="tag">Data Science</span><span class="tag">AI</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="inner">
+    <p class="section-label reveal">Contact</p>
+    <h2 class="reveal">Let's <span>Connect</span></h2>
+    <p class="sub reveal">I'm open to internships, collaborations, and exciting projects. If you think we can build something great together — let's talk.</p>
+    <div class="contact-grid reveal">
+      <a class="contact-item" href="mailto:venkatrajan@email.com">
+        <div class="contact-icon">✉️</div>
+        <div class="contact-label">Email</div>
+        <div class="contact-val">venkatrajan@email.com</div>
+      </a>
+      <a class="contact-item" href="https://github.com/venkatrajan" target="_blank">
+        <div class="contact-icon">🐙</div>
+        <div class="contact-label">GitHub</div>
+        <div class="contact-val">github.com/venkatrajan</div>
+      </a>
+      <a class="contact-item" href="https://linkedin.com/in/venkatrajan" target="_blank">
+        <div class="contact-icon">💼</div>
+        <div class="contact-label">LinkedIn</div>
+        <div class="contact-val">linkedin/venkatrajan</div>
+      </a>
+    </div>
+    <a href="#hero" class="btn btn-outline" style="display:inline-block;">↑ Back to Top</a>
+  </div>
+</section>
+
+<footer>
+  Designed &amp; Built by <span>Venkatrajan R</span> · Panimalar Engineering College · Chennai
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
